@@ -1,2 +1,2 @@
 # termfetch
-fetch for terminals on haskell
+fetch for terminals on c

@@ -14,7 +14,7 @@ void wezterm() {
     printf ( blue " █     ▟█▛ ██       ▜█▙   ▟█▛▜█▙   ▟█▛  █ 256 colors support: " reset "true\n" );
     printf ( blue " █ ██ ▟█▛ ██         ▜█▙ ▟█▛  ▜█▙ ▟█▛   █ Config file format: " reset "Lua\n" );
     printf ( blue " █   ▟█▛              ▜█▙        ▟█▛    █ \n" );
-    printf ( blue " █                                      █ \n" );
+    printf ( blue " █                                      █ " red "██" green "██" yellow "██" blue "██" magenta "██" reset "\n" );
     printf ( blue " ████████████████████████████████████████ \n" );
     printf ( "\n" );
 }

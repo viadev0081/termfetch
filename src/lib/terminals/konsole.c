@@ -14,7 +14,7 @@ void konsole() {
     printf ( white " █        ██       █ 256 colors support: " reset "true\n" );
     printf ( white " █      ██         █ Config file type: " reset "ini\n" );
     printf ( white " █    ██           █ \n" );
-    printf ( white " █                 █ \n" );
+    printf ( white " █                 █ " red "██" green "██" yellow "██" blue "██" magenta "██" reset "\n" );
     printf ( white " ███████████████████ \n" );
-    printf ( "\n" );   
+    printf ( "\n" );
 }

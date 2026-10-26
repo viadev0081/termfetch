@@ -3,19 +3,19 @@
 #include "../colors.h"
 #include "../terminals.h"
 
-void ghostty() {
+void alacritty() {
     printf ( "\n" );
-    printf ( white "  ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂  \n" );
-    printf ( white " ▟█████████████████████▙ Name: " reset "Ghostty\n" );
-    printf ( white " █                     █ Type: " reset "GPU accelerated\n" );
-    printf ( white " █                     █ Crossplatfom: " reset "Linux, MacOS, Windows, FreeBSD\n" );
-    printf ( white " █   ▜█▙               █ Configuring: "  reset "From configuration files\n" );
-    printf ( white " █    ███  █████████   █ Nerd Fonts support: " reset "true\n" );
-    printf ( white " █   ▟█▛               █ ANSI support: " reset "true\n" );
-    printf ( white " █                     █ 256 colors support: " reset "true\n" );
-    printf ( white " █                     █ Config file type: " reset "Ghostty config format\n" );
-    printf ( white " █                     █ \n" );
-    printf ( white " █    ▟█▙       ▟█▙    █ \n" );
-    printf ( white "  ▜███▛ ▜███████▛ ▜███▛  \n" );
-    printf ( "\n" );   
+    printf ( orange  "         ▂▂▂▂            \n" );
+    printf ( orange  "        ▟█▀▀█▙           Name: " reset "Alacritty\n" );
+    printf ( orange  "       ▟█▛  ▜█▙          Type: " reset "GPU accelerated\n" );
+    printf ( orange  "      ▟█▛    ▜█▙         Crossplatfom: " reset  "Linux, MacOS, Windows, FreeBSD, OpenBSD, NetBSD\n" );
+    printf ( orange  "     ▟█▛  ▄▄  ▜█▙        Configuring: "  reset  "From configuration files\n" );
+    printf ( orange  "    ▟█▛  ▟██▙  ▜█▙       Nerd Fonts support: "  reset  "true\n" );
+    printf ( orange  "   ▟█▛ ▟█▛  ▜█▙ ▜█▙      ANSI support: "        reset  "true\n" );
+    printf ( orange  "  ▟█▛ ███    ███ ▜█▙     256 colors support: "  reset  "true\n" );
+    printf ( orange  " ▟█▛   ▜▙    ▟▛   ▜█▙    Config file type: "  reset  "TOML\n" );
+    printf ( orange  "▟█▛     ▜▙  ▟▛     ▜█▙   \n" );
+    printf ( orange  "         ▜██▛            " red "██" green "██" yellow "██" blue "██" magenta "██" reset "\n" );
+    printf ( orange  "          ▜▛             \n" );
+    printf ( "\n" );
 }

@@ -1,5 +1,5 @@
 # Binary file name
-BINARY = ~/termfetch/bin/fetch
+BINARY = ~/termfetch/bin/termfetch
 
 CC = clang
 
@@ -18,6 +18,13 @@ $(BINARY): $(OBJS)
 clean:
 	@echo "Очистка бинарей... "
 	@rm -f $(BINARY)
+	@rm -f $(OBJS)
 
-run: build
-	@./$(BINARY)
+install:
+	sudo cp $(BINARY) /usr/bin/
+
+uninstall:
+	sudo rm -f /usr/bin/termfetch
+
+run:
+	$(BINARY)
